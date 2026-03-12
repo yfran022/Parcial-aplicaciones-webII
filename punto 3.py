@@ -12,7 +12,7 @@ def analizar_numeros(*args, **kwargs):
     # Y aquí los números que sean impares
     impares = []
 
-    # Ahora miramos cada número que nos pasaron
+    # Ahora miramos cada número
     for num in args:
         if num % 2 == 0:  # Si el número se puede dividir por 2, es par
             pares.append(num)  # Lo ponemos en la lista de pares
@@ -29,4 +29,5 @@ def analizar_numeros(*args, **kwargs):
         print(f"Números impares: {impares}")
         print(f"Cantidad de impares: {len(impares)}")
  #prueba       
+
 analizar_numeros(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
